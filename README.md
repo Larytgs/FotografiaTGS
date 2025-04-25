@@ -1,7 +1,7 @@
 # Novo projeto
 
-* Nome do site: Fotografia TGS
-* Objetivo: Mostrar o trabalho do fotógrafo e permitir que os visitantes entrem em contato
+- Nome do site: Fotografia TGS
+- Objetivo: Mostrar o trabalho do fotógrafo e permitir que os visitantes entrem em contato
 
 ## Seções
 
@@ -17,24 +17,34 @@
 - Adicione animações e transições para melhorar a experiência do usuário.
 - Use uma biblioteca de ícones, como o Heroicons, para adicionar ícones ao site.
 
+- Use imagens de alta qualidade: As fotos devem ser nítidas e bem iluminadas.
+- Adicione legendas: As legendas podem incluir informações sobre a localização, data e contexto da foto.
+- Use uma navegação simples: A navegação deve ser fácil de usar e permitir que os visitantes explorem o site.
+
+## Estilo
+
+- Cores: Cores pastéis ou brilhantes que remetem ao sol, praia e comida.
+- Tipografia: Fontes sans-serif e cursivas que dão um toque de descontração.
+- Imagens: Fotos de praias, comidas e momentos cotidianos com um toque de estética Tumblr.
+
+## Seções
+
+1. Praias: Uma galeria de fotos de praias com diferentes perspectivas e ângulos.
+2. Comidas: Uma seção de fotos de comidas com foco em detalhes e texturas.
+3. Momentos: Uma seção de fotos que capturam momentos cotidianos e descontraídos.
+
 ## Referências
 
 - Sites de portfólio: Veja exemplos de sites de portfólio de fotógrafos e designers para se inspirar.
 - Galerias de imagens: Veja exemplos de galerias de imagens e como elas são implementadas em sites.
 - Design responsivo: Aprenda sobre design responsivo e como implementá-lo no seu site.
 
+- https://br.freepik.com/fotos/praia
+- https://www.cameroneng.ca/places
+- https://www.ericbatty.com/
+
 ## Recursos
 
 - React: Documentação oficial do React.
 - Tailwind CSS: Documentação oficial do Tailwind CSS.
 - Heroicons: Biblioteca de ícones.
-
-Passos
-
-1. Crie um novo projeto React com o comando npx create-react-app meu-site.
-2. Instale o Tailwind CSS com o comando npm install tailwindcss.
-3. Configure o Tailwind CSS no seu projeto.
-4. Crie os componentes para cada seção do site.
-5. Adicione estilização e animações ao site.
-6. Implemente o formulário de contato.
-7. Teste e deploy o site.

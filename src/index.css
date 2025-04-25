@@ -2,16 +2,30 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: titulo1;
+  src: url(styles/READ_BEFORE_ANY_USE.txt) format("opentype");
+}
+
 :root {
-  --titulo: rgb(0, 255, 242);
+  --titulo: #0779bd;
+  --fundo: #ebb267;
+  --destaque: #80b8dc;
 }
 
 html,
 body {
   overflow-x: hidden;
   height: 100vh;
-  background-color: var(--fundoBlack);
-  color: white;
+  background-color: var(--fundo);
+  color: black;
   scroll-behavior: smooth; /*rolagem suave*/
   width: 100vw; /* 100% da largura da viewport */
+}
+
+h1 {
+  color: var(--titulo);
+  font-family: "titulo1";
+  font-size: 3em;
+  margin: 10px;
 }

@@ -1,11 +1,11 @@
 //Componente PAI
 import "./App.css";
-import Start from "./components/start";
+import Header from "./components/Header";
 
 function App() {
   return (
     <>
-      <Start></Start>
+      <Header></Header>
     </>
   );
 }
