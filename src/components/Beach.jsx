@@ -2,7 +2,7 @@ import React from "react";
 
 function Beach() {
   return (
-    <section className="m-5 borde p-4 max-w-7xl">
+    <section className="m-2 p-4 max-w-[100vw]">
       <h3 className="text-center font-bold mb-5">
         Fotos inspirados em Itapoá-SC
       </h3>
