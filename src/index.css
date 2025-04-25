@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  --titulo: rgb(0, 255, 242);
+}
+
+html,
+body {
+  overflow-x: hidden;
+  height: 100vh;
+  background-color: var(--fundoBlack);
+  color: white;
+  scroll-behavior: smooth; /*rolagem suave*/
+  width: 100vw; /* 100% da largura da viewport */
+}
