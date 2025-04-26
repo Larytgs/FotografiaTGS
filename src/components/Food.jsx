@@ -100,11 +100,11 @@ function Food() {
           src="/imgs/comida/19.jpg"
           alt=""
         />
-        <img
+        {/* <img
           className="w-full object-cover rounded-md shadow"
           src="/imgs/comida/20.jpg"
           alt=""
-        />
+        /> */}
         <img
           className="w-full object-cover rounded-md shadow"
           src="/imgs/comida/21.jpg"

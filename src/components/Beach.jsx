@@ -159,11 +159,11 @@ function Beach() {
           src="/imgs/praia/21.jpg"
           alt=""
         />
-        <img
+        {/* <img
           className="w-full object-cover rounded-md shadow"
           src="/imgs/praia/22.jpg"
           alt=""
-        />
+        /> */}
         <img
           className="w-full object-cover rounded-md shadow"
           src="/imgs/praia/23.jpg"
