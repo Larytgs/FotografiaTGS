@@ -1,5 +1,12 @@
 function Ul(props) {
-  return <ul className="mt-10 flex gap-6">{props.children}</ul>;
+  return (
+    <ul
+      className="gap-3 -mt-4 justify-center flex
+                  md:gap-6 md:mt-10"
+    >
+      {props.children}
+    </ul>
+  );
 }
 
 function Button(props) {

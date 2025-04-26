@@ -46,7 +46,7 @@ const Header = () => {
         }}
       >
         <div
-          className="flex justify-around m-0"
+          className="md:flex justify-around m-0"
           style={{
             backgroundColor: sectionBackgroundColors[visibleSection],
             color: textColors[visibleSection],
@@ -56,7 +56,8 @@ const Header = () => {
             style={{
               color: textColors[visibleSection],
             }}
-            className="font-black text-left m-5"
+            className="font-black text-center m-5 text-[1.5em] 
+            md:text-left md:text-[2.8em]"
           >
             Fotografia Tgs
           </h1>
