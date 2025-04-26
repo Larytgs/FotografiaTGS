@@ -11,7 +11,10 @@ function Ul(props) {
 
 function Button(props) {
   return (
-    <button onClick={props.onClick} className=" hover:text-[white] font-bold">
+    <button
+      onClick={props.onClick}
+      className=" hover:text-[white] font-bold underline underline-offset-3"
+    >
       {props.children}
     </button>
   );

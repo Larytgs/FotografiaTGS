@@ -56,7 +56,7 @@ const Header = () => {
             style={{
               color: textColors[visibleSection],
             }}
-            className="font-black text-center m-5 text-[1.9em] 
+            className="font-black text-center m-5 mt-2 text-[2.2em] 
             md:text-left md:text-[2.8em]"
           >
             Fotografia Tgs
