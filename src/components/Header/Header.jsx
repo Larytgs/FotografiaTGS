@@ -21,7 +21,7 @@ const Header = () => {
   // Cada botão muda, da seção + muda o background + muda a cor do header.
   const sectionBackgroundColors = {
     beach: "#d4a14e9a",
-    food: "#E84E23",
+    food: "#60210C",
     moments: "#B584AD",
     animals: "#A9CA76",
   };
@@ -29,7 +29,7 @@ const Header = () => {
   // Cada botão muda, da seção + muda a letra do header.
   const textColors = {
     beach: "#2E5DAD",
-    food: "#E19F27",
+    food: "#8AA33B",
     moments: "#B7011F",
     animals: "#4D392E",
   };

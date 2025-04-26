@@ -2,7 +2,7 @@ import React from "react";
 
 function Food() {
   return (
-    <section className="m-0 p-4 max-w-[100vw] bg-[#E84E23]">
+    <section className="m-0 p-4 max-w-[100vw] bg-[#60210C]">
       <h3 className="text-center font-bold mb-5">Fotos de comida</h3>
       <div className="columns-2 md:columns-3 lg:columns-4 gap-4 space-y-4">
         <img
