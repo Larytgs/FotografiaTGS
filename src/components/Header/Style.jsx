@@ -4,7 +4,7 @@ function Ul(props) {
 
 function Button(props) {
   return (
-    <button onClick={props.onClick} className=" hover:text-[#00D6D8] font-bold">
+    <button onClick={props.onClick} className=" hover:text-[white] font-bold">
       {props.children}
     </button>
   );
