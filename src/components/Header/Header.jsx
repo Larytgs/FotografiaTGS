@@ -1,12 +1,8 @@
 //Componente FILHO
 import { useState } from "react";
-
 import React from "react";
-import Beach from "../pages/Beach";
-import Food from "../pages/Food";
-import Moments from "../pages/Moments";
-import Animals from "../pages/Animals";
 
+import { Animals, Beach, Food, Moments } from "../pages/Todos";
 import Button, { Ul } from "./Style";
 
 const Header = () => {
