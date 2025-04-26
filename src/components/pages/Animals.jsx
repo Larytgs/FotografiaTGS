@@ -7,232 +7,232 @@ function Animals() {
       <div className="columns-2 md:columns-3 lg:columns-4 gap-4 space-y-4">
         <img
           className="w-full object-cover rounded-md shadow"
-          src="/public/imgs/animais/1.jpg"
+          src="/imgs/animais/1.jpg"
           alt=""
         />
         <img
           className="w-full object-cover rounded-md shadow"
-          src="/public/imgs/animais/2.jpg"
+          src="/imgs/animais/2.jpg"
           alt=""
         />
         <img
           className="w-full object-cover rounded-md shadow"
-          src="/public/imgs/animais/3.jpeg"
+          src="/imgs/animais/3.jpeg"
           alt=""
         />
         <img
           className="w-full object-cover rounded-md shadow"
-          src="/public/imgs/animais/4.jpg"
+          src="/imgs/animais/4.jpg"
           alt=""
         />
         <img
           className="w-full object-cover rounded-md shadow"
-          src="/public/imgs/animais/5.jpeg"
+          src="/imgs/animais/5.jpeg"
           alt=""
         />
         <img
           className="w-full object-cover rounded-md shadow"
-          src="/public/imgs/animais/6.jpeg"
+          src="/imgs/animais/6.jpeg"
           alt=""
         />
         <img
           className="w-full object-cover rounded-md shadow"
-          src="/public/imgs/animais/7.png"
+          src="/imgs/animais/7.png"
           alt=""
         />
         <img
           className="w-full object-cover rounded-md shadow"
-          src="/public/imgs/animais/8.jpeg"
+          src="/imgs/animais/8.jpeg"
           alt=""
         />
         <img
           className="w-full object-cover rounded-md shadow"
-          src="/public/imgs/animais/9.jpeg"
+          src="/imgs/animais/9.jpeg"
           alt=""
         />
         <img
           className="w-full object-cover rounded-md shadow"
-          src="/public/imgs/animais/10.jpeg"
+          src="/imgs/animais/10.jpeg"
           alt=""
         />
         <img
           className="w-full object-cover rounded-md shadow"
-          src="/public/imgs/animais/11.jpg"
+          src="/imgs/animais/11.jpg"
           alt=""
         />
         <img
           className="w-full object-cover rounded-md shadow"
-          src="/public/imgs/animais/12.jpeg"
+          src="/imgs/animais/12.jpeg"
           alt=""
         />
         <img
           className="w-full object-cover rounded-md shadow"
-          src="/public/imgs/animais/13.jpeg"
+          src="/imgs/animais/13.jpeg"
           alt=""
         />
         <img
           className="w-full object-cover rounded-md shadow"
-          src="/public/imgs/animais/14.jpeg"
+          src="/imgs/animais/14.jpeg"
           alt=""
         />
         <img
           className="w-full object-cover rounded-md shadow"
-          src="/public/imgs/animais/15.png"
+          src="/imgs/animais/15.png"
           alt=""
         />
         <img
           className="w-full object-cover rounded-md shadow"
-          src="/public/imgs/animais/16.jpeg"
+          src="/imgs/animais/16.jpeg"
           alt=""
         />
         <img
           className="w-full object-cover rounded-md shadow"
-          src="/public/imgs/animais/17.jpeg"
+          src="/imgs/animais/17.jpeg"
           alt=""
         />
         <img
           className="w-full object-cover rounded-md shadow"
-          src="/public/imgs/animais/18.jpeg"
+          src="/imgs/animais/18.jpeg"
           alt=""
         />
         <img
           className="w-full object-cover rounded-md shadow"
-          src="/public/imgs/animais/19.jpeg"
+          src="/imgs/animais/19.jpeg"
           alt=""
         />
         <img
           className="w-full object-cover rounded-md shadow"
-          src="/public/imgs/animais/20.jpg"
+          src="/imgs/animais/20.jpg"
           alt=""
         />
         <img
           className="w-full object-cover rounded-md shadow"
-          src="/public/imgs/animais/21.jpeg"
+          src="/imgs/animais/21.jpeg"
           alt=""
         />
         <img
           className="w-full object-cover rounded-md shadow"
-          src="/public/imgs/animais/22.jpg"
+          src="/imgs/animais/22.jpg"
           alt=""
         />
         <img
           className="w-full object-cover rounded-md shadow"
-          src="/public/imgs/animais/23.jpeg"
+          src="/imgs/animais/23.jpeg"
           alt=""
         />
         <img
           className="w-full object-cover rounded-md shadow"
-          src="/public/imgs/animais/24.jpeg"
+          src="/imgs/animais/24.jpeg"
           alt=""
         />
         <img
           className="w-full object-cover rounded-md shadow"
-          src="/public/imgs/animais/25.jpeg"
+          src="/imgs/animais/25.jpeg"
           alt=""
         />
         <img
           className="w-full object-cover rounded-md shadow"
-          src="/public/imgs/animais/26.jpg"
+          src="/imgs/animais/26.jpg"
           alt=""
         />
         <img
           className="w-full object-cover rounded-md shadow"
-          src="/public/imgs/animais/27.jpeg"
+          src="/imgs/animais/27.jpeg"
           alt=""
         />
         <img
           className="w-full object-cover rounded-md shadow"
-          src="/public/imgs/animais/28.jpeg"
+          src="/imgs/animais/28.jpeg"
           alt=""
         />
         <img
           className="w-full object-cover rounded-md shadow"
-          src="/public/imgs/animais/29.jpeg"
+          src="/imgs/animais/29.jpeg"
           alt=""
         />
         <img
           className="w-full object-cover rounded-md shadow"
-          src="/public/imgs/animais/30.jpeg"
+          src="/imgs/animais/30.jpeg"
           alt=""
         />
         <img
           className="w-full object-cover rounded-md shadow"
-          src="/public/imgs/animais/31.jpg"
+          src="/imgs/animais/31.jpg"
           alt=""
         />
         <img
           className="w-full object-cover rounded-md shadow"
-          src="/public/imgs/animais/32.jpeg"
+          src="/imgs/animais/32.jpeg"
           alt=""
         />
         <img
           className="w-full object-cover rounded-md shadow"
-          src="/public/imgs/animais/33.jpeg"
+          src="/imgs/animais/33.jpeg"
           alt=""
         />
         <img
           className="w-full object-cover rounded-md shadow"
-          src="/public/imgs/animais/34.jpeg"
+          src="/imgs/animais/34.jpeg"
           alt=""
         />
         <img
           className="w-full object-cover rounded-md shadow"
-          src="/public/imgs/animais/35.jpeg"
+          src="/imgs/animais/35.jpeg"
           alt=""
         />
         <img
           className="w-full object-cover rounded-md shadow"
-          src="/public/imgs/animais/36.png"
+          src="/imgs/animais/36.png"
           alt=""
         />
         <img
           className="w-full object-cover rounded-md shadow"
-          src="/public/imgs/animais/37.jpeg"
+          src="/imgs/animais/37.jpeg"
           alt=""
         />
         <img
           className="w-full object-cover rounded-md shadow"
-          src="/public/imgs/animais/38.jpeg"
+          src="/imgs/animais/38.jpeg"
           alt=""
         />
         <img
           className="w-full object-cover rounded-md shadow"
-          src="/public/imgs/animais/39.jpeg"
+          src="/imgs/animais/39.jpeg"
           alt=""
         />
         <img
           className="w-full object-cover rounded-md shadow"
-          src="/public/imgs/animais/40.jpeg"
+          src="/imgs/animais/40.jpeg"
           alt=""
         />
         <img
           className="w-full object-cover rounded-md shadow"
-          src="/public/imgs/animais/41.jpg"
+          src="/imgs/animais/41.jpg"
           alt=""
         />
         <img
           className="w-full object-cover rounded-md shadow"
-          src="/public/imgs/animais/42.png"
+          src="/imgs/animais/42.png"
           alt=""
         />
         <img
           className="w-full object-cover rounded-md shadow"
-          src="/public/imgs/animais/43.jpeg"
+          src="/imgs/animais/43.jpeg"
           alt=""
         />
         <img
           className="w-full object-cover rounded-md shadow"
-          src="/public/imgs/animais/44.jpeg"
+          src="/imgs/animais/44.jpeg"
           alt=""
         />
         <img
           className="w-full object-cover rounded-md shadow"
-          src="/public/imgs/animais/45.jpg"
+          src="/imgs/animais/45.jpg"
           alt=""
         />
         <img
           className="w-full object-cover rounded-md shadow"
-          src="/public/imgs/animais/46.jpeg"
+          src="/imgs/animais/46.jpeg"
           alt=""
         />
       </div>
