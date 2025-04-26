@@ -1,8 +1,8 @@
 function Footer() {
   const footerStyle = {
     textAlign: "center",
-    color: "black",
-    backgroundColor: "#d4a14e9a",
+    color: "white",
+    backgroundColor: "#462714c0",
     padding: "14px",
     fontSize: "1.5em",
     botton: "0",

@@ -2,13 +2,13 @@
 import { useState } from "react";
 import React from "react";
 
-import Home from "../Home/Home";
+// import Home from "../Home/Home";
 import { Animals, Beach, Food, Moments } from "../pages/Todos";
 import Button, { Ul } from "./Style";
 import Footer from "../Footer/Footer";
 
 const Header = () => {
-  // Inicializando "home" como a seção visível
+  // Inicializando "beach" como a seção visível
   // A variável "visibleSection" irá armazenar a seção visível atualmente (ou null se nenhuma)
   const [visibleSection, setVisibleSection] = useState("beach");
 
@@ -16,16 +16,48 @@ const Header = () => {
   const toggleSection = (section) => {
     // Se a seção clicada for a mesma que já está visível, ela permanece, senão, troca
     setVisibleSection(visibleSection === section ? visibleSection : section);
-    if (visibleSection !== section) {
-      setVisibleSection(section);
-    }
+  };
+
+  // Cada botão muda, da seção + muda o background + muda a cor do header.
+  const sectionBackgroundColors = {
+    beach: "#d4a14e9a",
+    food: "#E84E23",
+    moments: "#B584AD",
+    animals: "#A9CA76",
+  };
+
+  // Cada botão muda, da seção + muda a letra do header.
+  const textColors = {
+    beach: "#2E5DAD",
+    food: "#E19F27",
+    moments: "#B7011F",
+    animals: "#4D392E",
   };
 
   return (
     <>
-      <section>
-        <div className="flex justify-around m-2">
-          <h1 className="font-black text-left m-5">Fotografia Tgs</h1>
+      <section
+        style={{
+          backgroundColor: sectionBackgroundColors[visibleSection],
+          color: textColors[visibleSection],
+          minHeight: "100vh",
+        }}
+      >
+        <div
+          className="flex justify-around m-0"
+          style={{
+            backgroundColor: sectionBackgroundColors[visibleSection],
+            color: textColors[visibleSection],
+          }}
+        >
+          <h1
+            style={{
+              color: textColors[visibleSection],
+            }}
+            className="font-black text-left m-5"
+          >
+            Fotografia Tgs
+          </h1>
           <Ul>
             {/* <li>
               <Button onClick={() => toggleSection("home")}>Home</Button>
