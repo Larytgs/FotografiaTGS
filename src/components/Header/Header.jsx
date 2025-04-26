@@ -4,6 +4,7 @@ import React from "react";
 
 import { Animals, Beach, Food, Moments } from "../pages/Todos";
 import Button, { Ul } from "./Style";
+import Footer from "../Footer/Footer";
 
 const Header = () => {
   // Inicializando "presentation" como a seção visível
@@ -48,7 +49,7 @@ const Header = () => {
         </div>
       </section>
 
-      {/* <Footer/> */}
+      <Footer />
     </>
   );
 };
