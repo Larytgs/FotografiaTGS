@@ -8,7 +8,7 @@ function Footer() {
   };
 
   return (
-    <h1 className="text-[1.2em] md:text-[1.9em]" style={footerStyle}>
+    <h1 className="text-[1.2em]" style={footerStyle}>
       &copy;2025 Laryssa Tortato Gomes da Silva
     </h1>
   );
