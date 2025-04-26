@@ -42,11 +42,11 @@ const Header = () => {
         style={{
           backgroundColor: sectionBackgroundColors[visibleSection],
           color: textColors[visibleSection],
-          minHeight: "100vh",
+          Height: "100vh",
         }}
       >
         <div
-          className="md:flex justify-around m-0"
+          className="md:flex justify-around"
           style={{
             backgroundColor: sectionBackgroundColors[visibleSection],
             color: textColors[visibleSection],

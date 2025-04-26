@@ -9,10 +9,8 @@
 
 :root {
   --titulo: #0779bd;
-  --fundo: #d4a14e9a;
   --destaque: #80b8dc;
 }
-
 html,
 body {
   overflow-x: hidden;
