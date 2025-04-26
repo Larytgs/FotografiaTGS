@@ -51,7 +51,7 @@ import React from "react";
 function Moments() {
   return (
     <section className="m-0 p-4 max-w-[100vw] bg-[#B584AD]">
-      <h3 className="text-center font-bold mb-5">Momentos</h3>
+      {/* <h3 className="text-center font-bold mb-5">Momentos</h3> */}
       <div className="columns-2 md:columns-3 lg:columns-4 gap-4 space-y-4">
         {/* columns-2 → 2 colunas no mobile
           md:columns-3 → 3 colunas no tablet

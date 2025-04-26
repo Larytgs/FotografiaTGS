@@ -3,7 +3,7 @@ import React from "react";
 function Animals() {
   return (
     <section className="m-0 p-4 max-w-[100vw] bg-[#A9CA76]">
-      <h3 className="text-center font-bold mb-5">Fotos de Animais</h3>
+      {/* <h3 className="text-center font-bold mb-5">Fotos de Animais</h3> */}
       <div className="columns-2 md:columns-3 lg:columns-4 gap-4 space-y-4">
         <img
           className="w-full object-cover rounded-md shadow"

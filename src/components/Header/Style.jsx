@@ -1,7 +1,7 @@
 function Ul(props) {
   return (
     <ul
-      className="gap-3 -mt-4 justify-center flex
+      className="gap-3 -mt-2 justify-center flex
                   md:gap-6 md:mt-10"
     >
       {props.children}
