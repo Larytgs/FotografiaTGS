@@ -13,7 +13,7 @@ function Button(props) {
   return (
     <button
       onClick={props.onClick}
-      className=" hover:text-[white] font-bold underline underline-offset-3"
+      className=" hover:text-[white] font-bold underline underline-offset-3 text-[1.2em]"
     >
       {props.children}
     </button>
