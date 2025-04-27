@@ -66,16 +66,16 @@ const Header = () => {
               <Button onClick={() => toggleSection("home")}>Home</Button>
             </li> */}
             <li>
-              <Button onClick={() => toggleSection("beach")}>Beach</Button>
+              <Button onClick={() => toggleSection("beach")}>Praia</Button>
             </li>
             <li>
-              <Button onClick={() => toggleSection("food")}>Food</Button>
+              <Button onClick={() => toggleSection("food")}>Comida</Button>
             </li>
             <li>
-              <Button onClick={() => toggleSection("moments")}>Moments</Button>
+              <Button onClick={() => toggleSection("moments")}>Momentos</Button>
             </li>
             <li>
-              <Button onClick={() => toggleSection("animals")}>Animals</Button>
+              <Button onClick={() => toggleSection("animals")}>Animais</Button>
             </li>
           </Ul>
         </div>
