@@ -6,7 +6,7 @@ function Beach() {
       <h3 className="text-center font-bold mt-2 mb-2">
         Fotos inspirados em Itapoá-SC
       </h3>
-      <div className="columns-1 md:columns-3 lg:columns-4 gap-4 space-y-4">
+      <div className="columns-2 md:columns-3 lg:columns-4 gap-4 space-y-4">
         {/* columns-2 → 2 colunas no mobile
             md:columns-3 → 3 colunas no tablet
             lg:columns-4 → 4 colunas no desktop
