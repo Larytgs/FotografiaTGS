@@ -43,8 +43,7 @@ const Header = () => {
         style={{
           backgroundColor: sectionBackgroundColors[visibleSection],
           color: textColors[visibleSection],
-          Height: "100vh",
-          minHeight: "200vh",
+          minHeight: "100vh", // apenas minHeight, deixa crescer naturalmente
         }}
       >
         <div

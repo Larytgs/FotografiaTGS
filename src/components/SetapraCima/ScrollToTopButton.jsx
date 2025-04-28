@@ -1,13 +1,13 @@
 import React, { useState, useEffect } from "react";
-import { FaArrowUp } from "react-icons/fa"; // Ícone de seta para cima
+import { FaArrowUp } from "react-icons/fa";
 
-const ScrollToTopButton = () => {
+function ScrollToTopButton() {
   const [isVisible, setIsVisible] = useState(false);
 
-  // Mostrar ou esconder botão dependendo do scroll
   useEffect(() => {
+    // Mostrar o botão depois que o usuário rolar um pouco
     const toggleVisibility = () => {
-      if (window.scrollY > 100) {
+      if (window.scrollY > 50) {
         setIsVisible(true);
       } else {
         setIsVisible(false);
@@ -15,45 +15,41 @@ const ScrollToTopButton = () => {
     };
 
     window.addEventListener("scroll", toggleVisibility);
-
-    return () => {
-      window.removeEventListener("scroll", toggleVisibility);
-    };
+    return () => window.removeEventListener("scroll", toggleVisibility);
   }, []);
 
   const scrollToTop = () => {
     window.scrollTo({
       top: 0,
-      behavior: "smooth", // Scroll suave
+      behavior: "smooth", // rolagem suave
     });
   };
 
   return (
     <>
       {isVisible && (
-        <div
+        <button
           onClick={scrollToTop}
           style={{
             position: "fixed",
             bottom: "40px",
             right: "40px",
-            height: "50px",
-            width: "50px",
-            backgroundColor: "#333",
-            color: "black",
+            padding: "10px 15px",
+            fontSize: "20px",
             borderRadius: "50%",
-            display: "flex",
-            justifyContent: "center",
-            alignItems: "center",
+            backgroundColor: "#333",
+            color: "#fff",
+            border: "none",
             cursor: "pointer",
-            zIndex: 999,
+            boxShadow: "0 2px 5px rgba(0,0,0,0.3)",
+            zIndex: 1000,
           }}
         >
-          <FaArrowUp />
-        </div>
+          <FaArrowUp size={20} />
+        </button>
       )}
     </>
   );
-};
+}
 
 export default ScrollToTopButton;
