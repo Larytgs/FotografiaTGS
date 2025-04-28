@@ -90,6 +90,7 @@ const Header = () => {
           {visibleSection === "animals" && <Animals />}
         </div>
       </section>
+
       <ScrollToTopButton />
 
       <Footer />
