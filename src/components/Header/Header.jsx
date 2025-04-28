@@ -1,6 +1,7 @@
 //Componente FILHO
 import { useState } from "react";
 import React from "react";
+import ScrollToTopButton from "../SetapraCima/ScrollToTopButton";
 
 // import Home from "../Home/Home";
 import { Animals, Beach, Food, Moments } from "../pages/Todos";
@@ -43,6 +44,7 @@ const Header = () => {
           backgroundColor: sectionBackgroundColors[visibleSection],
           color: textColors[visibleSection],
           Height: "100vh",
+          minHeight: "200vh",
         }}
       >
         <div
@@ -88,10 +90,10 @@ const Header = () => {
           {visibleSection === "animals" && <Animals />}
         </div>
       </section>
+      <ScrollToTopButton />
 
       <Footer />
     </>
   );
 };
-
 export default Header;
