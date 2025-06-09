@@ -1,9 +1,9 @@
 # Novo projeto
 
-<img src="/public/imgs/FotografiaTgs.png"></img>
-
 - Nome do site: Fotografia TGS
 - Objetivo: Mostrar o trabalho do fotógrafo e permitir que os visitantes entrem em contato
+
+<img src="/public/imgs/FotografiaTgs.png"></img>
 
 ## Seções
 
