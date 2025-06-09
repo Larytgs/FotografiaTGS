@@ -1,4 +1,4 @@
-<img src=""></img>
+<img src="/public/imgs/FotografiaTgs.png"></img>
 
 # Novo projeto
 
